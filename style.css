@@ -1,0 +1,21 @@
+<style>
+h1{
+  font-size: 60px;
+}
+body{
+  font-family: monospace;
+  background-color: rgb(135,206,235);
+  color: white;
+}
+form{
+  margin-left: 50px;
+  font-size: 4vw;
+}
+#top h1{
+  color: pink;
+  background-color: white;
+  font-weight: 600;
+  border: solid 10px white;
+  border-radius: 10px;
+}
+</style>
