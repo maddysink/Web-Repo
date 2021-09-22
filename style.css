@@ -1,6 +1,5 @@
-<style>
 h1{
-  font-size: 60px;
+  font-size: 30px;
 }
 body{
   font-family: monospace;
@@ -17,5 +16,5 @@ form{
   font-weight: 600;
   border: solid 10px white;
   border-radius: 10px;
+  font-size: 60px;
 }
-</style>
