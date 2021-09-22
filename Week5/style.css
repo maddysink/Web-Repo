@@ -1,0 +1,30 @@
+body{
+  font-family: arial;
+  font-size: 2vw;
+  font-weight: 500;
+  color:rgb(100,100,100)
+}
+p{
+  font-size:20px
+}
+h1{
+  background-color: blue;
+  font-family: "Rubik Beastly"!important;
+  border: solid red 1px;
+}
+#second{
+  font-weight: bold;
+}
+.red{
+  color: red;
+}
+span{
+  color: blue;
+  font-weight: bold;
+}
+hr{
+  border: pink dashed;
+}
+#two{
+
+}
