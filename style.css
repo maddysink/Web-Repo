@@ -26,6 +26,9 @@ form{
   font-size: 60px;
   padding: 15px;
 }
+#top{
+  margin-left:10px;
+}
 .border{
   background-color: white;
   border: double 10px #FFC8DD;
@@ -37,4 +40,5 @@ form{
 #image{
  width: 20vw;
  padding: 10px;
+ margin-left: 20px;
 }
