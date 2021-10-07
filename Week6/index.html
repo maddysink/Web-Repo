@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fun with Java!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Opake">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  </head>
+  <body>
+    <section id="hero">
+      <h1 id="herotext">Hey Queen</h1>
+      <img alt="ocean" src="ocean.jpg" id="heroimg">
+    </section>
+    <section id="one">
+      <div>
+      <h2> <span id="first">Section One</span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed pulvinar diam, in efficitur nisi. Fusce rutrum faucibus tellus, sit amet porttitor ipsum aliquam eu. Aenean lectus arcu, ornare ac ex quis, fringilla consectetur libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elementum sem vel nisi hendrerit, non faucibus lorem sodales. Vestibulum sollicitudin nibh magna, eu pharetra sem dapibus at. Sed ullamcorper odio nec fermentum egestas. Nulla elementum ullamcorper porttitor. Sed in nulla ut nisi condimentum posuere. Donec in rutrum erat, ut tristique nisi. Aenean auctor vehicula leo vel dapibus. Donec nec sem tincidunt, sagittis nisi in, tempor mi. Donec dictum erat dolor, congue posuere purus laoreet et. Ut mauris ex, tristique vel dui non, tincidunt elementum risus. Aliquam erat volutpat. Nam sollicitudin nisl sagittis, egestas enim ac, aliquet ex.
+      </p>
+      </div>
+      <div>
+      <h2>Section Two</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed pulvinar diam, in efficitur nisi. Fusce rutrum faucibus tellus, sit amet porttitor ipsum aliquam eu. Aenean lectus arcu, ornare ac ex quis, fringilla consectetur libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elementum sem vel nisi hendrerit, non faucibus lorem sodales. Vestibulum sollicitudin nibh magna, eu pharetra sem dapibus at. Sed ullamcorper odio nec fermentum egestas. Nulla elementum ullamcorper porttitor. Sed in nulla ut nisi condimentum posuere. Donec in rutrum erat, ut tristique nisi. Aenean auctor vehicula leo vel dapibus. Donec nec sem tincidunt, sagittis nisi in, tempor mi. Donec dictum erat dolor, congue posuere purus laoreet et. Ut mauris ex, tristique vel dui non, tincidunt elementum risus. Aliquam erat volutpat. Nam sollicitudin nisl sagittis, egestas enim ac, aliquet ex.
+      </p>
+      </div>
+    </section>
+
+    <section id="two">
+      <h2>Section Three</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed pulvinar diam, in efficitur nisi. Fusce rutrum faucibus tellus, sit amet porttitor ipsum aliquam eu. Aenean lectus arcu, ornare ac ex quis, fringilla consectetur libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elementum sem vel nisi hendrerit, non faucibus lorem sodales. Vestibulum sollicitudin nibh magna, eu pharetra sem dapibus at. Sed ullamcorper odio nec fermentum egestas. Nulla elementum ullamcorper porttitor. Sed in nulla ut nisi condimentum posuere. Donec in rutrum erat, ut tristique nisi. Aenean auctor vehicula leo vel dapibus. Donec nec sem tincidunt, sagittis nisi in, tempor mi. Donec dictum erat dolor, congue posuere purus laoreet et. Ut mauris ex, tristique vel dui non, tincidunt elementum risus. Aliquam erat volutpat. Nam sollicitudin nisl sagittis, egestas enim ac, aliquet ex.
+      </p>
+    <section id="three">
+      <h2>Want to Click?</h2>
+      <button id="mybutton">Click Me for Surprise</button>
+      <button id="mybutton2">Click Me for Other Surprise</button>
+    </section>
+
+  <script>
+    console.log("javascript working");
+    document.getElementById("mybutton").addEventListener("click", buttonOne);
+    document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+    document.getElementById("hero").addEventListener("click", heroClicked);
+
+    function buttonClicked(){
+      alert("SURPRISE!");
+      document.getElementById("herotext").innerHTML = "I Love You";
+    }
+
+    function heroClicked(){
+      alert("hehe that tickles");
+    }
+
+    function buttonOne(){
+      alert("SURPRISE!");
+      document.getElementById("first").style.color = "pink";
+      document.getElementById('three').style.backgroundColor = "limegreen";
+    }
+  </script>
+  </body>
+
+  </html>

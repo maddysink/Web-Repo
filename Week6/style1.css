@@ -1,0 +1,51 @@
+p{
+  color: red;
+}
+h1, h2{
+  font-family: "Roboto"
+}
+#hero{
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+
+}
+#hero img{
+  width: 100vw;
+  position: relative;
+  bottom: 300px;
+}
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 7vw;
+  top: 30vh;
+  margin: 0,0,0,7vw;
+}
+#one,#two{
+  margin-left: 7vw;
+  margin-right: 3vw;
+}
+button{
+  background-color: pink;
+  font-family: "Roboto";
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 10px;
+  padding: 7px 15px;
+}
+button:active{
+  background-color: blue;
+}
+button:hover{
+  border: solid black 3px;
+}
+a:link{
+  color: blue
+}
+a:hover{
+  font-size: 200%;
+}
+a:active{
+  color: red;
+}
