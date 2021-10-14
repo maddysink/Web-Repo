@@ -1,0 +1,50 @@
+#quote{
+  background-color:	#FFC0CB;
+  padding: 20px 40px 60px 40px;
+  margin: 30vh 20vw;
+  font-family: "Bree Light";
+  /* filter: drop-shadow(3px 3px 4px rgba(0,0,0,.5)); */
+  border-radius: 10px;
+  border: double 10px black;
+}
+
+#qtext{
+  color: #1f110f;
+  margin-bottom: 20px;
+}
+
+body{
+  background-color: #FF69B4;
+}
+
+button{
+  float: right;
+  padding: 10px 50px;
+  font-family: "Bree Light";
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  background-color:black;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover{
+  border: 2px #FF69B4 solid;
+}
+
+button:active{
+  background-color: #665c5b;
+}
+
+#flex{
+  display: flex;
+  width: auto;
+  margin: 10px 20vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+  margin-left: 10px;
+}

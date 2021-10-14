@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/17596c29da.js" crossorigin="anonymous"></script>
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree-Light">
+
+</head>
+<body>
+  <section id="quote">
+    <h2 id="qtext">Hey Betch! This is the Mean Girls quote machine. Click for a super fetch quote!</h2>
+    <button id="qbutton">Click Me Betch</button>
+  </section>
+
+<script>
+  const quotes = ["I'm sorry that people are so jealous of me.", "It's not my fault you're, like, in love with me or something!", "It's like I have ESPN or something. My breasts can always tell when it's going to rain.","Get in loser, we're going shopping.","Is butter a carb?"];
+  quoteCount = 0;
+  document.getElementById('qbutton').addEventListener("click", newQuote);
+  function newQuote(){
+    document.getElementById("qtext").innerHTML = quotes[quoteCount];
+    alert("you can't sit with us!");
+    if(quoteCount>=(quotes.length-1)){
+      quoteCount = 0;
+    }else{
+      quoteCount +=1;
+    }
+  }
+
+</script>
+
+</body>
+
+</html>
