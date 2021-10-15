@@ -1,0 +1,70 @@
+h1{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 100px;
+  color: white;
+  text-shadow: 5px 2px #ff5d8f;
+  margin: 50px;
+}
+h2{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 65px;
+  margin: 10px;
+}
+h3{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 50px;
+  margin: 10px;
+}
+h4{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 35px;
+  margin: 10px;
+}
+h5{
+font-family: "Roboto";
+font-size: 35px;
+color: #ff5d8f;
+margin: 10px;
+}
+h6{
+font-family: "Roboto";
+font-size: 30px;
+color: #ff5d8f;
+margin: 10px;
+}
+p{
+font-family: "Roboto";
+font-size: 24px;
+color: white;
+margin: 0;
+}
+body{
+ background-color: #ffccd5;
+}
+.border{
+  background-color: #eaeaea;
+  border: solid 2px #ff5d8f;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 50px;
+}
+button{
+  background-color: #ff5d8f;
+  font-family: "Roboto";
+  border-radius: 10px;
+  border: solid white 2px;
+  font-size: 24px;
+  margin: 50px;
+  padding: 7px 15px;
+}
+button:active{
+  background-color: #eaeaea;
+  color: #ff5d8f;
+}
+button:hover{
+  border: solid white 4px;
+}
