@@ -77,7 +77,7 @@ button:active{
 button:hover{
   border: solid white 4px;
 }
-#buttons{
+.buttons{
   display: flex;
   width: auto;
   margin: 10px 20vw;
