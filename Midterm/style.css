@@ -1,0 +1,110 @@
+h1{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 100px;
+  color: white;
+  text-shadow: 5px 2px #ff5d8f;
+  margin: 20px;
+  text-align: center;
+}
+h2{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 65px;
+  margin: 10px;
+}
+h3{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 50px;
+  margin: 10px;
+}
+h4{
+  font-family: "Decoy";
+  font-style: Italic;
+  font-size: 35px;
+  margin: 10px;
+}
+h5{
+font-family: "Roboto";
+font-size: 35px;
+color: #ff5d8f;
+margin: 10px;
+}
+h6{
+font-family: "Roboto";
+font-size: 30px;
+color: #ff5d8f;
+margin: 10px;
+}
+p{
+font-family: "Roboto";
+font-size: 24px;
+color: #ff5d8f;
+margin: 0;
+}
+ul{
+  font-family: "Roboto";
+  font-size: 24px;
+  color: #ff5d8f;
+  margin: 0;
+}
+li{
+  margin-top: 20px;
+}
+body{
+ background-color: #ffccd5;
+}
+.border{
+  background-color: #eaeaea;
+  border: solid 2px #ff5d8f;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+}
+button{
+  background-color: #ff5d8f;
+  font-family: "Roboto";
+  border-radius: 10px;
+  border: solid white 2px;
+  font-size: 24px;
+  padding: 7px 15px;
+}
+button:active{
+  background-color: #eaeaea;
+  color: #ff5d8f;
+}
+button:hover{
+  border: solid white 4px;
+}
+#buttons{
+  display: flex;
+  width: auto;
+  margin: 10px 20vw;
+}
+.days{
+  flex-grow: 1;
+  margin-left: 10px;
+}
+#qbutton{
+  float: right;
+  margin-top: 10px;
+}
+#grid{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(12, 8.33%);
+
+}
+.full{
+  grid-column-end: span 12;
+}
+.half{
+ grid-column-end: span 6;
+}
+#day{
+    text-align: center;
+    padding-top: 75px;
+}
