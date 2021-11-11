@@ -51,7 +51,8 @@ form{
 #image{
  width: 20vw;
  padding: 10px;
- margin-left: 600px;
+ display: block;
+ margin: 1rem auto;
 }
 @media screen and (max-width: 700px){
   #image{
