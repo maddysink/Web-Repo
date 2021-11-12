@@ -20,6 +20,8 @@ form{
 }
 #top h1{
   text-align: center;
+  color: #F991CC;
+  font-family: "Grand Hotel";
   background-color: white;
   font-weight: 500;
   border: double 10px #FFC8DD;
